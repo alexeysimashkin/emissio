@@ -15,7 +15,7 @@ class Settings(BaseSettings):
     MAX_WEBHOOK_URL: str = "https://example.com/webhook"
     MAX_API_URL: str = "https://api.max.ru/v1"
     
-    # Админ (создаётся автоматически)
+    # Админ
     ADMIN_EMAIL: str
     ADMIN_PASSWORD: str
     ADMIN_FULL_NAME: str
